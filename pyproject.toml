@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EnSF-GMM"
+version = "0.1.0"
+authors = [{name = "Zezhong Zhang", email = "zez0002@auburn.edu"}]
+requires-python = ">=3.8"
+dependencies = []
+
+# Tell setuptools where to find packages
+[tool.setuptools.packages.find]
+where = ["src"] 

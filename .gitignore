@@ -1,0 +1,12 @@
+# data
+datasets/
+
+# python 
+__pycache__
+
+# packaging
+*.egg-info/
+
+
+# out
+outputs/
